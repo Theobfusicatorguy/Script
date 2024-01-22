@@ -1,0 +1,19 @@
+-- Script for Roblox
+
+-- Function to display a notification
+local function displayNotification(message)
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Check /console";
+        Text = message;
+        Duration = 5;
+    })
+end
+
+-- Main function
+local function main()
+    displayNotification("Hello, world!")
+    print("hello world")
+end
+
+-- Call the main function
+main()
